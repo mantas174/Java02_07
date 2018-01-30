@@ -21,7 +21,10 @@ public class Main {
         System.out.print("Iveskite savo ugi: ");
         ugis = in.nextFloat();
 
-        System.out.print("KMI: " + mase / (ugis * ugis)) ;
+        System.out.print("KMI: " + kmi(mase, ugis)) ;
 
+    }
+    public static float kmi(float m, float u){
+        return m /(u * u);
     }
 }
